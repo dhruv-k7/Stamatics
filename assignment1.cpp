@@ -183,11 +183,11 @@ int main(){
          cout<<endl;
         }
     }
-    
+
     // Uncomment the following part to fetch distance of a node from node 0 
     // int s;
     // cin>>s;
-
+    // cout<<"Distance of "<<s<<" from 0 is :";
     // if(back_edges[0][s] == 1){
     //     cout<<"1"<<endl;
     // }
