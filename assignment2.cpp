@@ -226,17 +226,17 @@ int main(){
 
     //Uncomment the below part for first 3 questions of the assignment
 
-    cin>>n>>m;
-    ids = vector<int> (n,0);
-    low = vector<int> (n,0);
-    onstack = vector<int> (n,0);
-    adj = vector<vector<int>> (n);
-    vis = vector<int> (n,0);
-    for(int i=0;i<m;i++){
-        int x,y;
-        cin>>x>>y;
-        adj[x].push_back(y);
-    }
+//     cin>>n>>m;
+//     ids = vector<int> (n,0);
+//     low = vector<int> (n,0);
+//     onstack = vector<int> (n,0);
+//     adj = vector<vector<int>> (n);
+//     vis = vector<int> (n,0);
+//     for(int i=0;i<m;i++){
+//         int x,y;
+//         cin>>x>>y;
+//         adj[x].push_back(y);
+//     }
 
     //Calculating and printing topologically sorted vector:
 
